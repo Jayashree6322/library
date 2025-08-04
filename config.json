@@ -12,7 +12,9 @@
       "name": "Shree",
       "borrowedBooks": [
         { "bookId": 1, "dueDate": "9/5/2025" },
-        { "bookId": 3, "dueDate": "9/2/2025" }
+        { "bookId": 3, "dueDate": "9/2/2025" },
+        { "bookId": 4, "dueDate": "9/3/2025" }
+
       ],
       "history": []
     },
@@ -34,5 +36,7 @@
   "reservations": [
     { "userId": 102, "bookId": 1, "date": "8/23/2025" },
     { "userId": 103, "bookId": 3, "date": "8/24/2025" }
-  ]
+  ],
+  "maxBorrowLimit": 3,
+  "borrowDurationDays": 14
 }
